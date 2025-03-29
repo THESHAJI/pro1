@@ -1,0 +1,18 @@
+class Main {
+    public static void main(String[] args) {
+        int n=9879;
+        int c=0;
+        while(n>0){
+            
+        int ld=n%10;
+        
+        //System.out.println(ld);
+        //if(n==ld){
+            
+        
+         c=c+1;
+        //System.out.print(ld); }
+        n=n/10;}
+        System.out.print(c); 
+    }
+}
